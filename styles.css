@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: hsl(0, 0%, 8%);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Inter", sans-serif;
+}
+
+.profile-container {
+  background-color: hsl(0, 0%, 12%);
+  width: 350px;
+  border-radius: 10px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.avatar-img {
+  border-radius: 50%;
+  width: 84px;
+  height: 84px;
+}
+.profile-info {
+  text-align: center;
+}
+.name {
+  font-size: 22px;
+  font-weight: 700;
+  color: hsl(0, 0%, 100%);
+  margin: 30px 0px 5px 0px;
+}
+.location {
+  font-size: 14px;
+  font-weight: 600;
+  color: hsl(75, 94%, 57%);
+  margin-bottom: 15px;
+}
+.description {
+  font-size: 14px;
+  font-weight: 400;
+  color: hsl(0, 0%, 100%);
+}
+.links-container {
+  margin-top: 15px;
+  width: 100%;
+  display: block;
+  text-align: center;
+}
+li {
+  list-style: none;
+}
+a.list-link {
+  text-decoration: none;
+  display: block;
+  background-color: hsl(0, 0%, 20%);
+  color: hsl(0, 0%, 100%);
+  margin: 10px 0;
+  border-radius: 5px;
+  font-size: 14px;
+  font-weight: 400;
+  padding: 10px 0px;
+  transition: background-color 0.5s ease, color 0.5s ease;
+}
+a.list-link:hover {
+  background-color: hsl(75, 94%, 57%);
+  color: hsl(0, 0%, 8%);
+}
